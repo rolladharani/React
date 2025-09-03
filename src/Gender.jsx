@@ -4,9 +4,9 @@ const Gender =() => {
         <center>
         <form>
             <label>Gender: &nbsp;</label>
-            <input type="radio" name="Genders"></input>
+            <input type="radio" name="Gender"></input>
             <label>Male</label>
-            <input type="radio" name="Genders"></input>
+            <input type="radio" name="Gender"></input>
             <label>Female</label>
             <br /><br />
         </form>
