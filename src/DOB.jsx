@@ -4,7 +4,7 @@ const DOB =() => {
         <center>
         <form>
             <label>Date Of Birth: &nbsp;</label>
-            <input type="date" placeholder="Enter DOB"></input>
+            <input type="date" placeholder="Enter Your DOB"></input>
             <br /><br />
         </form>
         </center>
