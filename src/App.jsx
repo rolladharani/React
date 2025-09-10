@@ -13,12 +13,12 @@ function App() {
 
   return (
     <>
-      <FirstName />
+      {/* <FirstName />
       <LastName />
       <Email />
       <PhoneNumber   />
       <DOB />
-      <Gender />
+      <Gender /> */}
     </>
   )
 }
