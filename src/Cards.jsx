@@ -11,12 +11,12 @@
             {
             image: MyImage,
             price: "$200",
-            brand: "DENIM"
+            brand: "Ferrari"
             },
             {
             image: MyImage,
             price: "$200",
-            brand: "DENIM"
+            brand: "POLOS"
             },
             {
                 image: MyImage,
