@@ -1,0 +1,22 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    flex-wrap: wrap;
+    gap:20px;
+    /* background-color: cornflowerblue; */
+}
+.card{
+    display: flex;
+    width:300px;
+    align-items: center; 
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(196, 214, 82);
+}
+input{
+    padding: 40px;
+    font-size: 35px;
+}
