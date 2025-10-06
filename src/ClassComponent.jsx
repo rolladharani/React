@@ -4,6 +4,7 @@ class ClassComponent extends Component{
     {
         return(
             <h1>CLASS</h1>
+
         )
     }
 }

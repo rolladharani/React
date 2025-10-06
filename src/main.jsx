@@ -6,6 +6,8 @@ import Hook1 from './Hook1.jsx'
 import DynamicCard from './DynamicCard.jsx'
 import Hook2 from './Hook2.jsx'
 import SearchingCards from './SearchingCards.jsx'
+import ToDo from './ToDo.jsx'
+import Routing from './Routing.jsx'
 // import CARDS from './Cards.jsx'
 // import Comp1 from './Component1'
 // import Comp2 from './Component2'
@@ -13,6 +15,6 @@ import SearchingCards from './SearchingCards.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <SearchingCards />
+    <Routing />
   </StrictMode>,
 )
