@@ -14,7 +14,7 @@ const page2 = () => {
             </button>
             <h1>Count : {Count}</h1>
             <h1>Page-2</h1>
-            <Link to="/">Move to Page-1</Link>
+            <Link to="/" style={{textDecoration:"none"}}>Move to Page-1</Link>
             </center>
         </div>
         )

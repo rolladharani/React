@@ -14,8 +14,8 @@ const {Count , setCount} = useContext(Store);
                 Add
             </button>
             <h1>Count : {Count}</h1>
-            <Link to="/page2" >Move to Page-2</Link>
             <h1>Page-1</h1>
+            <Link to="/page2" style={{textDecoration:"none"}}>Move to Page-2</Link>
             </center>
         </div>
     );
