@@ -12,13 +12,14 @@ const Routing = () => {
     return (
         <BrowserRouter>
         <Routes>
-            <Route path="/" element={ <ClassComponent />} />
+            {/* <Route path="/" element={ <ClassComponent />} />
             <Route path="/Comp1" element={<Component1 />} /> 
             <Route path="/Comp2" element={<Component2 />} /> 
-            <Route path="*" element={<PageNotFound />} /> 
+            <Route path="*" element={<PageNotFound />} />  */}
 
             <Route path="/Product-Cards" element={<ProductCards />} /> 
-            <Route path="/Product-desc/:ID" element={<Productinfo />} /> 
+            <Route path="/Product-desc/:ID" element={<Productinfo />} />
+
         </Routes>
         </BrowserRouter>
     );
