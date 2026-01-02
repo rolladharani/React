@@ -13,26 +13,15 @@
     // import Gender from './Gender'
     // import Comp1 from './Component1'
     // import Comp2 from './Component2'
-    import Page1 from './page1';
-    import Page2 from "./page2";
-    import Store from "./Store";
-
+    // import Page1 from './page1';
+    // import Page2 from "./page2";
+    // import Store from "./Store"; 
+    //  import TypingMaster from './TypingMaster';
     function App() {
-        const [Count ,setCount] = useState(0)
-    return (
-            <>
-            <Store.Provider value={{Count,setCount}}>
-              <BrowserRouter>
-                <Routes>
-                  <Route path="/" element={<Page1 />} />
-                  <Route path="/page2" element={<Page2 />} />
-                </Routes>
-              </BrowserRouter>
-            </Store.Provider>
-            </>
-          );
+  <TypingMaster />
 }
 export default App
+
       // const [count, setCount] = useState(0)
       // var data=[
       //   {
