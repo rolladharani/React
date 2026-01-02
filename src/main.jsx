@@ -16,11 +16,15 @@ import { BrowserRouter } from 'react-router-dom'
 // import CARDS from './Cards.jsx'
 // import Comp1 from './Component1'
 // import Comp2 from './Component2'
-
+ import Addon from './Addon';
+import Task1 from './Task1.jsx'
+import TypingMaster from './TypingMaster.jsx'
+import Dashboard from './Dashboard.jsx'
+import Logger from './Logger.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <Logger />
   </StrictMode>,
 )
